@@ -18,19 +18,50 @@
 
 <body>
 
+<div class="container" class="center-block">
 
-<nav class="navbar navbar-inverse" role="navigation">
-<ul class="nav navbar-nav navbar-left">
-    	  <li><a href="usuarios">Usuarios</a></li></div>
-		  <li><a href="ejemplar">Ejemplar</a></li>
-    <li><a href="categoria">Categoria</a></li>
-    <li><a href="historial">Historial</a></li>
-	 <li><a href="favorito">Favoritos</a></li>
-    <li><a href="peticion">Peticion</a></li>
-    <li><a href="pestramo">Prestamo</a></li>
-</ul>
-</nav>
+		
 
+			<h1>SISTEMA DE BIBLIOTECA G9<h1>
+		</div>
+ 
+  
+
+
+
+
+		
+		
+		<nav class="navbar navbar-inverse" role="navigation">
+		<ul class="nav navbar-nav navbar-left">
+		<li><a href="<?php echo base_url('usuarios'); ?>">usuarios 1</a></li>
+    			  <li><a href="usuarios">Usuarios</a></li></div>
+				  <li><a href="ejemplar">Ejemplar</a></li>
+			<li><a href="categoria">Categoria</a></li>
+			<li><a href="historial">Historial</a></li>
+			 <li><a href="favorito">Favoritos</a></li>
+			<li><a href="peticion">Peticion</a></li>
+			<li><a href="pestramo">Prestamo</a></li>
+			<li><a href="<?php echo base_url(); ?>">Inicio</a></li>
+			<li><a href="<?php echo base_url('portada/formulario'); ?>">Usuariosff</a></li>
+			<li><a href="<?php echo base_url('portada/lista'); ?>">Lista</a></li>
+			<li><a href="<?php echo base_url('Welcome/confidencial2'); ?>">dos es confidencial</a></li>
+			<li><a href="<?php echo base_url('portada/lista'); ?>">dMODELO_PORTADA_LISTA</a></li>
+			<li><a href="<?php echo base_url('Login'); ?>">Mi cuenta*Ingresar</a></li>
+			<li><a href="<?php echo base_url('Login/salir'); ?>">Salir</a></li>
+	
+		</ul>
+		</nav>
+		
+<div class="row">
+  <div class="col-md-12">
+    <div class="thumbnail">
+      <a href="/w3images/lights.jpg">
+        <img src="https://s10.s3c.es/imag/_v0/770x420/9/4/f/700x420_libro-amor-dreams.jpg" alt="Lights" style="width:100%">
+      </a>
+    </div>
+	</div>
+</div>
 
 </body>
 </html>

@@ -1,7 +1,8 @@
 <?php
 class Model_personas extends CI_Model {
 
-       
+      
+	
         public function consultar()
         {
                 $query = $this->db->get('usuario', 10);

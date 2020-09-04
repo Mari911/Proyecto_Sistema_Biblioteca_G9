@@ -2,14 +2,14 @@
   "ExpandedNodes": [
     "",
     "\\application",
-    "\\application\\config",
     "\\application\\controllers",
     "\\application\\models",
-    "\\application\\third_party",
     "\\application\\views",
+    "\\application\\views\\img",
     "\\application\\views\\portada",
-    "\\application\\views\\usuarios"
+    "\\application\\views\\usuarios",
+    "\\system\\core\\compat"
   ],
-  "SelectedNode": "\\application\\controllers\\categoria.php",
+  "SelectedNode": "\\application\\controllers\\Login.php",
   "PreviewInSolutionExplorer": false
 }

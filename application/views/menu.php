@@ -11,21 +11,26 @@
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
 
+<!-- para jquery-->
+  <script src="jquery-1.3.2.min.js" type="text/javascript"></script>
     
 </head>
+
 <body>
-<div>
+
 
 <nav class="navbar navbar-inverse" role="navigation">
 <ul class="nav navbar-nav navbar-left">
-    <li><a href="usuarios.php">Usuarios</a></li></div>
-    <li><a href="crear.php">Crear</a></li>
-    <li><a href="detalles.php">Detalles</a></li>
-    <li><a href="reportes.php">Reportes</a></li>
-    <li><a href="configuraciones.php">Configuraciones</a></li>
-
+    	  <li><a href="usuarios">Usuarios</a></li></div>
+		  <li><a href="ejemplar">Ejemplar</a></li>
+    <li><a href="categoria">Categoria</a></li>
+    <li><a href="historial">Historial</a></li>
+	 <li><a href="favorito">Favoritos</a></li>
+    <li><a href="peticion">Peticion</a></li>
+    <li><a href="pestramo">Prestamo</a></li>
 	<li><a href="<?php echo base_url(); ?>">Inicio</a></li>
-	<li><a href="<?php echo base_url('Welcome/confidencial'); ?>">confidencial</a></li>
+	<li><a href="<?php echo base_url('Welcome/confidencial'); ?>">Menu es confidencial</a></li>
+	<li><a href="<?php echo base_url('Welcome/confidencial2'); ?>">MENU FUERA dos es confidencial</a></li>
 	<li><a href="<?php echo base_url('Login'); ?>">Login</a></li>
 	<li><a href="<?php echo base_url('Login/salir'); ?>">Logout</a></li>
 	
@@ -33,6 +38,6 @@
 </nav>
 
 
-
 </body>
 </html>
+
